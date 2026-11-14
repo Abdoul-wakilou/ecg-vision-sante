@@ -1,0 +1,13 @@
+# Étape 1 : exploration et traitement du signal (versions figées pour la reproductibilité)
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+matplotlib==3.11.2
+wfdb==4.3.1
+
+# Notebooks
+jupyter==1.1.1
+ipykernel==7.4.0
+
+# Les bibliothèques des étapes suivantes (scikit-learn, torch, opencv...) seront
+# ajoutées au moment où elles serviront.

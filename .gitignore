@@ -1,0 +1,23 @@
+# Données : jamais dans Git (plusieurs Go, et chaque dataset a sa propre licence)
+data/
+
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modèles entraînés (trop lourds pour Git)
+*.pt
+*.pth
+*.ckpt
+models/
+
+# Fichiers système et éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
